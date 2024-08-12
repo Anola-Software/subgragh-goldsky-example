@@ -1,0 +1,29 @@
+{
+  "version": "1",
+  "name": "music-subgraph",
+  "chains": [
+    "sepolia"
+  ],
+  "abis": {
+    "music-artist-proxy": {
+      "path": "./abi/MusicArtistProxy.json"
+    },
+    "music-artist": {
+      "path": "./abi/MusicArtist.json"
+    }
+  },
+  "instances": [
+    {
+      "abi": "music-artist-proxy",
+      "address": "0x7bDF2f6B96b0eb25ccC2598DAE7217E75B07B850",
+      "chain": "sepolia",
+      "startBlock": 6461653
+    },
+    {
+      "abi": "music-artist",
+      "address": "0x36A2C52518D08dAf6a33C9e4C624601aA867E838",
+      "chain": "sepolia",
+      "startBlock": 6461629
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+goldsky subgraph deploy music-subgraph/v1 --from-abi ../config.json
